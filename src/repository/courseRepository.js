@@ -4,9 +4,6 @@ import Course from '../models/course.js'
 const create = async (course) => {
 
     try {
-        console.log(course)
-        const { name, level, idProfessor } = course;
-
         const newCourse = await Course.create(course);
             
         return newCourse;

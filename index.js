@@ -12,9 +12,9 @@ async function main() {
         
         console.log('Connection successful')
         
-        var PORT = 3001
+        var PORT = 3001;
 
-        app.listen(PORT)
+        app.listen(PORT);
 
         console.log('App Iniciada en puerto '+PORT)
 
