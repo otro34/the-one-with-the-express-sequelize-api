@@ -12,7 +12,7 @@ async function main() {
         
         console.log('Connection successful')
         
-        var PORT = 3001;
+        var PORT = process.env.PORT || 3001;
 
         app.listen(PORT);
 
